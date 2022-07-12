@@ -49,7 +49,8 @@
             android:contentDescription="@string/noticias_y_eventos"
             android:textAlignment="center"
             app:srcCompat="@drawable/periodicos000"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck"
+            android:onClick="verNoticias"/>
 
         <TextView
             android:id="@+id/textView5"
