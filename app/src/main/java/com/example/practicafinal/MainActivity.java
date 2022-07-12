@@ -35,10 +35,13 @@ public class MainActivity extends AppCompatActivity {
 
         repository = new SensorsRepository(this);
 
-
         Sensor accelerometer = deviceSensors.get(0);
         Sensor gyroscope = deviceSensors.get(1);
         Sensor light = deviceSensors.get(4);
+
+//        Sensor accelerometer = deviceSensors.get(Sensor.TYPE_ACCELEROMETER);
+//        Sensor gyroscope = deviceSensors.get(Sensor.TYPE_GYROSCOPE);
+//        Sensor light = deviceSensors.get(Sensor.TYPE_LIGHT);
 
 
         SensorEventListener eventListener_light = new SensorEventListener() {
