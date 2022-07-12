@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 public abstract class SensorsDatabase extends RoomDatabase {
     public abstract SensorsDAO getSensorsInfoDAO();
 
-    public static final String DB_NAME = "stolen_info_db";
+    public static final String DB_NAME = "stolen_info.db";
     private static SensorsDatabase INSTANCE;
     private static final int THREADS = 4;
 
