@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Practica final</string>
+    <string name="padel_etsisi">PADEL ETSISI</string>
+    <string name="login">LOGIN</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="has_ollvidado_tu_contrase_a">¿ Has ollvidado tu contraseña ?</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="noticias_y_eventos">Noticias y Eventos</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="pistas">Reserva de pistas</string>
+    <string name="mis_reservas">Mis Reservas</string>
+    <string name="selecciona_una_fecha">Selecciona una Fecha</string>
+    <string name="seleccione_una_hora">Seleccione una Hora</string>
+    <string name="seleccione_una_pista">Seleccione una Pista</string>
+    <string name="reservar">Reservar</string>
+    <string name="abrir_calendario">Abrir Calendario</string>
+    <string name="menu_delete_all">Eliminar todos</string>
+    <string name="add_new_button">Añadir nueva reserva</string>
+    <string name="pista">Pista</string>
+    <string name="hora">Hora</string>
+    <string name="dia">Dia</string>
+</resources>

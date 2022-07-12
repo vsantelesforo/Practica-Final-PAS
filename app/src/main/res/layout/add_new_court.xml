@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525">
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="783dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#80D8FF"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/padel_etsisi"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#3F51B5"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecciona_una_fecha"
+            android:textAlignment="center"
+            android:textColor="#78909C"
+            android:textSize="20sp" />
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="338dp"
+            android:layout_height="300dp"
+            android:background="#F4FFFC"
+            android:unfocusedMonthDateColor="#777272" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/seleccione_una_hora"
+            android:textAlignment="center"
+            android:textColor="#78909C"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_horas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#F4FFFC"
+            android:entries="@array/horas_array"
+            android:minHeight="48dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/seleccione_una_pista"
+            android:textAlignment="center"
+            android:textColor="#78909C"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_pistas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#F4FFFC"
+            android:entries="@array/court_array"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/button_reservar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/reservar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
