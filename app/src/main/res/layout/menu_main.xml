@@ -68,7 +68,8 @@
             android:layout_height="90dp"
             android:contentDescription="@string/tiempo"
             app:srcCompat="@drawable/sun_clouds_blue_sky_146410201994j"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml"
+            android:onClick="verTiempo"/>
 
         <TextView
             android:id="@+id/textView7"

@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SIMCA/StudioProjects/Practica-Final-PAS/app/src/main/res/layout/activity_weather.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SIMCA/StudioProjects/Practica-Final-PAS/app/src/main/res/layout/content_main.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/SIMCA/StudioProjects/Practica-Final-PAS/app/src/main/res/layout/menu_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/SIMCA/StudioProjects/Practica-Final-PAS/app/src/main/res/layout/recyclerview_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/SIMCA/StudioProjects/Practica-Final-PAS/app/src/main/res/layout/view_main.xml" value="0.15260416666666668" />
         <entry key="..\:/Users/Victor/AndroidStudioProjects/Practicafinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
         <entry key="..\:/Users/Victor/AndroidStudioProjects/Practicafinal/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Victor/AndroidStudioProjects/Practicafinal/app/src/main/res/layout/activity_menu.xml" value="0.18" />

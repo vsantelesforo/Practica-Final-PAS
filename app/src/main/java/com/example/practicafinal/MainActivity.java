@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void verTiempo(View view){
-
+        Intent i = new Intent(this, WeatherActivity.class);
+        startActivity(i);
     }
 
     public void verNoticias(View view){
